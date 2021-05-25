@@ -1,7 +1,7 @@
 {
-  "name": "storybook",
+  "name": "storybook_practice2",
   "version": "0.1.0",
-  "private": true,
+  "main": ".storybook/main.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -20,6 +20,15 @@
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --project-token 7a8211f64a9e"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagrutigourcuelogic/storybook.git"
+  },
+  "keywords": [
+    "npm",
+    "npm",
+    "practice"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -56,5 +65,11 @@
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
     "chromatic": "^5.8.0"
-  }
+  },
+  "author": "Jagruti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagrutigourcuelogic/storybook/issues"
+  },
+  "homepage": "https://github.com/jagrutigourcuelogic/storybook#readme"
 }
