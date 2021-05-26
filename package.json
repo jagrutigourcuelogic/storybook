@@ -18,7 +18,8 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --project-token 7a8211f64a9e",
-    "build": "cross-env BABEL_ENV=production babel src -d dist"
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
+    "release": "auto shipit --base-branch=main"
   },
   "repository": "https://github.com/jagrutigourcuelogic/storybook.git",
   "keywords": [
