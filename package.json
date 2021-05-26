@@ -1,6 +1,7 @@
 {
-  "name": "storybook_practice3",
+  "name": "storybook_practice4",
   "version": "0.1.0",
+  "main":"dist/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
